@@ -1,8 +1,8 @@
 import csv
 import json
 
-csv_file = './poketmon.csv'
-json_path = 'pokemon.json'
+csv_file = './PoketId.csv'
+json_path = 'PoketId.json'
 
 data=[]
 with open(csv_file, 'rt', encoding='utf-8') as data_csv:
